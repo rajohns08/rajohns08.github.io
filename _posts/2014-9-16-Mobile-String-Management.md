@@ -74,7 +74,7 @@ Now that we have our script for generating the native strings files, we need to 
 </plist>
 ```
 
-You should change the string under Label to be whatever you want your label to be. The string in the ProgramArguments array is the file that you want to be executed (the script you just created), and the string under the WatchPaths key is the file we want to watch (our strings.txt file). The RunAtLoad key set to true just says that this daemon should run when it is loaded.
+You should change the string under Label to be whatever you want your label to be. The string in the ProgramArguments array is the file that you want to be executed (the script you just created), and the string under the WatchPaths key is the file we want to watch (our strings.txt file). The `RunAtLoad` key set to true just says that this daemon should run when it is loaded.
 
 Make sure to paste your .plist file in `/Users/yourUsername/Library/LaunchAgents/` and it should automatically start every time you login on Mac OS X.
 
