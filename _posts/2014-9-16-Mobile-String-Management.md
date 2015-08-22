@@ -33,11 +33,11 @@ The double bracket items are optional and are just for separating different logi
 
 Once you have your strings.txt file ready, you can generate your native strings files from it with a twine command line tool:
 
-`twine generate-all-string-files /Users/yourUsername/Documents/strings.txt /Users/yourUsername/Documents/YourAndroidApp/app/src/main/res`
+**`twine generate-all-string-files /Users/yourUsername/Documents/strings.txt /Users/yourUsername/Documents/YourAndroidApp/app/src/main/res`**
 
 The above command is for generating Android strings only. For iOS the command would be something like the following:
 
-`twine generate-all-string-files /Users/yourUsername/Documents/strings.txt $PROJECT_DIR/$PROJECT_NAME/Locales/`
+**`twine generate-all-string-files /Users/yourUsername/Documents/strings.txt $PROJECT_DIR/$PROJECT_NAME/Locales/`**
 
 ## Automating Generation
 
@@ -45,7 +45,7 @@ Ok, so now we have a central place for our strings and we can generate our nativ
 
 What would be more convenient is if we could have those strings files generated automatically every time we update our central strings.txt file. To accomplish this we can take advantage of [launch daemons](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html#//apple_ref/doc/uid/10000172i-SW7-BCIEDDBJ) on OS X.
 
-First, we need to create an executable file to handle our twine commands. Just make a new .sh file and insert the twine commands from above. Don't forget to make the file executable by running `chmod +x yourScript.sh`. I actually had issues using the .sh file extension so you might need to remove the extension altogether to get it to run from your launch daemon:
+First, we need to create an executable file to handle our twine commands. Just make a new .sh file and insert the twine commands from above. Don't forget to make the file executable by running **`chmod +x yourScript.sh`**. I actually had issues using the .sh file extension so you might need to remove the extension altogether to get it to run from your launch daemon:
 
 ![_config.yml]({{ site.baseurl }}/images/GenJudgeStringsGetInfo.png)
 
