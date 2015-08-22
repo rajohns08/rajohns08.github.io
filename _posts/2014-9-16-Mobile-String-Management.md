@@ -39,7 +39,7 @@ The above command is for generating Android strings only. For iOS the command wo
 
 `twine generate-all-string-files /Users/yourUsername/Documents/strings.txt $PROJECT_DIR/$PROJECT_NAME/Locales/`
 
-### Automating Generation
+## Automating Generation
 
 Ok, so now we have a central place for our strings and we can generate our native strings files by running those 2 twine commands, but do we really want to have to do that every time we update the strings file?
 
