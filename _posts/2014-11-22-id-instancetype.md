@@ -69,7 +69,7 @@ Imagine we have a `Dog` subclass of `Animal`:
 
 Now if we tried to call
 
-```objc
+```objective-c
 [[Dog giveMeAnimalC] makeSound];
 ```
 
