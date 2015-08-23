@@ -7,10 +7,6 @@ Recently I've been thinking more about following the [Don't Repeat Yourself](htt
 
 I found a great tool called [Twine](https://github.com/mobiata/twine) that helps solve this exact issue. Basically you create all of your strings in a central strings.txt file (hopefully kept in its own version control). You then run the twine command line tool to generate your iOS and Android native string files (.strings for iOS and .xml for Android) from your central strings.txt file. This way you only need to update your strings in one location and have them auto-generated into your individual native mobile environments.
 
-Here is an example of how it works: create a strings.txt file anywhere you like, and fill it with something like the following:) (DRY) principle in relation to mobile development. Specifically I have been contemplating how to handle string management between iOS and Android projects. Following DRY, we obviously shouldn't be repeating our strings and string keys in both our native iOS and Android environments. So recently I started googling around for potential solutions to this problem.
-
-I found a great tool called Twine that helps solve this exact issue. Basically you create all of your strings in a central strings.txt file (hopefully kept in its own version control). You then run the twine command line tool to generate your iOS and Android native string files (.strings for iOS and .xml for Android) from your central strings.txt file. This way you only need to update your strings in one location and have them auto-generated into your individual native mobile environments.
-
 Here is an example of how it works: create a strings.txt file anywhere you like, and fill it with something like the following:
 
 ```
