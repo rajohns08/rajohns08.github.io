@@ -51,3 +51,5 @@ After you click fork, the repo in its current state should be copied over to you
 <br><br><br>
 
 You will be presented with one more screen where you can add more details to your pull request if you would like. And that should be it! You will now have to wait on your changes to be merged in by the repo admin or someone with write access to the repo.
+
+<br><br><br>
