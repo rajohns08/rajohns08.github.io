@@ -44,6 +44,7 @@ What would be more convenient is if we could have those strings files generated 
 First, we need to create an executable file to handle our twine commands. Just make a new .sh file and insert the twine commands from above. Don't forget to make the file executable by running **`chmod +x yourScript.sh`**. I actually had issues using the .sh file extension so you might need to remove the extension altogether to get it to run from your launch daemon:
 
 ![_config.yml]({{ site.baseurl }}/images/GenJudgeStringsGetInfo.png)
+<br><br><br>
 
 It is not enough to just remove the extension in the file name in Finder, you have to open up "Get Info" on the file and remove the extension from there as shown above. "GenJudgeStrings" above is just the name of my script with the twine commands. Yours can be whatever you like.
 
