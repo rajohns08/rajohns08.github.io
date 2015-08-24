@@ -35,3 +35,5 @@ doSomeTask & showLoading "DOING SOME TASK"
 ```
 
 The ampersand in the function call is a little misleading as it seems to be an "AND" syntax. This strange syntax works well though because the ampersand actually tells the preceding function call to run in the background asynchronously. The **`showLoading`** function prevents any subsequent commands from executing, however, because it runs in a while loop until the previous function pid is finished executing. The **`-n`** echo option says don't print new line character at end of echo. The **`-e`** option says to interpret **`\r`** as carriage return. The **`\r`** carriage return basically says move the cursor to the beginning of the line. Finally, the **`\r\033[K`** says to move the cursor to the beginning of the line AND clear the current line.
+
+<br><br><br>

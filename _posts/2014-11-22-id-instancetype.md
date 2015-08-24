@@ -82,3 +82,5 @@ it wouldn't work because we would have been returned an `Animal` which doesn't h
 then we could successfully call the `makeSound` method since `instancetype` would have returned us a `Dog`.
 
 Note: This post has been in reference to factory methods specifically. "alloc", "init", and "new" methods that return `id` will automatically be converted to `instancetype` under the hood. However, it is still considered better practice to go ahead and name those return types to be `instancetype`   also to avoid any ambiguity and to stay consistent. A full sample project that illustrates this post can be found [here](https://github.com/rajohns08/codingdiscovery/tree/master/2014.11.22%20-%20InstanceType) if you want to download it and take a look for yourself.
+
+<br><br><br>

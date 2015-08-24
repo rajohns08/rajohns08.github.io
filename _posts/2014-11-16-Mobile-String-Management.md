@@ -75,3 +75,5 @@ You should change the string under Label to be whatever you want your label to b
 Make sure to paste your .plist file in `/Users/yourUsername/Library/LaunchAgents/` and it should automatically start every time you login on Mac OS X.
 
 Now we have a central place for our strings for iOS and Android, and when we update our central strings.txt file our native strings files will be automatically and immediately generated. Mission accomplished.
+
+<br><br><br>
